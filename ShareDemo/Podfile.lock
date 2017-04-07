@@ -1,0 +1,33 @@
+PODS:
+  - MOBFoundation (2.2.3)
+  - ShareSDK3 (3.5.2):
+    - ShareSDK3/ShareSDK (= 3.5.2)
+  - ShareSDK3/ShareSDK (3.5.2)
+  - ShareSDK3/ShareSDKExtension (3.5.2)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.5.2)
+  - ShareSDK3/ShareSDKUI (3.5.2)
+  - UMengUShare/Core (6.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.1)
+  - UMengUShare/Social/WeChat (6.1):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.1):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - MOBFoundation
+  - ShareSDK3
+  - ShareSDK3/ShareSDKExtension
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKUI
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
+
+SPEC CHECKSUMS:
+  MOBFoundation: 2bc5cd7011a2db75cf2b3ceacb7f4227eec88f3e
+  ShareSDK3: 08ed714e2bbdcd97ab60f58cb398227341dfc20a
+  UMengUShare: 6c3902a68a06d01031bed6f426e97b89d4fc504f
+
+PODFILE CHECKSUM: e17eded3bc50e86b0e3d8b3cdfb24acede0fb9f3
+
+COCOAPODS: 1.1.1

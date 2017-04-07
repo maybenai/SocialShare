@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/MOBFoundation" "${PODS_ROOT}/ShareSDK3/ShareSDK" "${PODS_ROOT}/ShareSDK3/ShareSDK/Support/Required" "${PODS_ROOT}/ShareSDK3/ShareSDK/Support/Optional" "${PODS_ROOT}/ShareSDK3/ShareSDK/Support/PlatformSDK/QQSDK" "${PODS_ROOT}/ShareSDK3/ShareSDK/Support/PlatformConnector" "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK" "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MOBFoundation" "${PODS_ROOT}/Headers/Public/ShareSDK3" "${PODS_ROOT}/Headers/Public/UMengUShare"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/WeChat"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/MOBFoundation" -isystem "${PODS_ROOT}/Headers/Public/ShareSDK3" -isystem "${PODS_ROOT}/Headers/Public/UMengUShare"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SocialWeChat" -l"WeChatSDK" -l"c++" -l"icucore" -l"sqlite3" -l"stdc++" -l"z" -l"z.1.2.5" -framework "CoreTelephony" -framework "JavaScriptCore" -framework "MOBFoundation" -framework "MOBFoundationEx" -framework "QQConnector" -framework "QuartzCore" -framework "ShareSDK" -framework "ShareSDKConnector" -framework "ShareSDKExtension" -framework "ShareSDKUI" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit" -framework "UMSocialCore" -framework "UMSocialNetwork" -framework "UShareUI"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
