@@ -1,4 +1,4 @@
 # SocialShare
 原生、umeng、shareSDK分享
 
-/Users/lisonglin/GitHub/SocialShare/ShareDemo/2017-04-07 10_26_28.gif
+![image](https://github.com/maybenai/SocialShare/blob/master/ShareDemo/2017-04-07%2010_26_28.gif)
